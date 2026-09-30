@@ -1,0 +1,12 @@
+{
+  "name": "Dr Fakhra Habib | Al Aman Medical Centre, Jampur",
+  "short_name": "Dr Fakhra Habib",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FBF7F2",
+  "theme_color": "#6E2233",
+  "icons": [
+    {"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
