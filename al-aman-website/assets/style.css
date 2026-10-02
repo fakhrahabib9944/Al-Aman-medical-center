@@ -538,6 +538,13 @@ html[lang="ur"] .brand-name{line-height:1.5!important}
 }
 html[lang="ur"] .clinic-fig figcaption{font-size:.95rem}
 [dir="rtl"] .f-reception img{object-position:0% 50%}
+.clinic-tour{margin-top:clamp(2rem,5vw,3rem);display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(1.5rem,4vw,3rem);align-items:center;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:clamp(1.25rem,3vw,2rem) clamp(1.25rem,4vw,3rem);box-shadow:var(--shadow-sm)}
+.tour-text h3{font-size:clamp(1.4rem,2.6vw,1.9rem);margin-bottom:.6rem}
+.tour-text p{color:var(--muted);max-width:42ch}
+.tour-video{margin:0;width:min(100%,300px);display:grid;gap:.6rem}
+.tour-video video{display:block;width:100%;height:auto;aspect-ratio:9/16;object-fit:cover;border-radius:var(--radius-lg);background:var(--blush-soft);box-shadow:var(--shadow-sm)}
+.tour-video figcaption{font-size:.85rem;font-weight:600;color:var(--muted);text-align:center}
+@media (max-width:700px){.clinic-tour{grid-template-columns:1fr;text-align:center}.tour-text p{margin-inline:auto}.tour-video{justify-self:center;width:min(100%,280px)}}
 
 /* ================= PATIENT REVIEWS ================= */
 .reviews{background:var(--white)}
